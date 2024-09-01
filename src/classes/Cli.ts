@@ -188,8 +188,9 @@ class Cli {
           parseInt(answers.year),
           parseInt(answers.weight),
           parseInt(answers.topSpeed),
+          [],
           parseInt(answers.towingCapacity),
-          []
+          
         );
         // TODO: push the truck to the vehicles array
         this.vehicles.push(truck);
