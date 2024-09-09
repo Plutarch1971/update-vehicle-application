@@ -7,8 +7,6 @@ class Vehicle implements Driveable {
 // Declare properties of the Vehicle class
   started: boolean;
   currentSpeed: number;
-    
-  
 
 
   // Constructor for the Vehicle class
