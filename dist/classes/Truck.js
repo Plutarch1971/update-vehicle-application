@@ -8,7 +8,6 @@ class Truck extends Vehicle {
     // TODO: Create a constructor that accepts the properties of the Truck class
     constructor(vin, color, make, model, year, weight, topSpeed, wheels, towingCapacity) {
         // TODO: The constructor should call the constructor of the parent class, Vehicle
-        //super(vin, color, make, model, year, weight, topSpeed, wheels);
         super();
         // TODO: The constructor should initialize the properties of the Truck class
         this.towingCapacity = towingCapacity;
@@ -36,7 +35,6 @@ class Truck extends Vehicle {
     // TODO: Implement the tow method from the AbleToTow interface
     tow(vehicle) {
         // TODO: Get the make and model of the vehicle if it exists
-        // Vehicle vehicle = new Vehicle (make, model, weight);
         //Check if the vehicle is a Truck
         if (vehicle instanceof Truck) {
             const vehicleMake = vehicle.make;
